@@ -21,7 +21,7 @@ Vagrant.configure("2") do |config|
     sudo apt-get update
     sudo apt-get -y upgrade
     # Set Ubuntu Language
-    sudo locale-gen en_GB.UTF-8
+    sudo locale-gen en_US.UTF-8
     # Install Python, SQLite and pip
     sudo apt-get install -y python3-dev sqlite python-pip
     # Upgrade pip to the latest version.
